@@ -4,7 +4,7 @@
 
 一个给 Agent 用的小 Skill：把指定项目的改动讲成人能直接行动的话——你能看到什么、去哪里检查、还有什么没验证。适合使用编程 Agent、但不想先读一大页代码差异的人。
 
-[English](README.md) · [查看 Skill 原文](skills/show-the-change/SKILL.md) · [看一个真实改动示例](examples/browser-agent-doc-change.zh-CN.md)
+[English](README.md) · [查看 Skill 原文](skills/show-the-change/SKILL.md) · [看真实产品改动示例](examples/carousel-product-change.zh-CN.md)
 
 ## Agent 做完后，问一句
 
@@ -28,7 +28,13 @@ npx skills@1.7.4 add LydiaTools/show-the-change --skill show-the-change --agent 
 
 ## 一个真实改动示例
 
-[示例](examples/browser-agent-doc-change.zh-CN.md)来自 Browser Agent Blueprint 的一次公开提交：它把“更新了说明文档”和“新增了产品功能”区分开，并指出可以直接打开核对的段落。示例由查看公开改动和已有检查记录后撰写，不是独立的模型行为评测。
+[产品示例](examples/carousel-product-change.zh-CN.md)解释了一次真实的图片工具改动，展示实际界面，并告诉你如何试用。[另一个示例](examples/browser-agent-doc-change.zh-CN.md)把文档更新和产品功能更新区分开。两份示例都基于公开源码和已有检查记录，不是独立的模型行为评测。
+
+> **你能看到什么变化：** 横图、方图、竖图可以放进同一画幅，完整显示图片边缘；调整顺序后，可以一次下载带编号的压缩包。
+
+![实际图片工具界面：三张不同形状的照片完整放在同一画幅中](https://raw.githubusercontent.com/LydiaTools/aspectory/c8293abbc337aacd733cae5ef0a19607995fa951/docs/screenshots/carousel-photos-zh.jpg)
+
+*截图是示例所介绍的现有 Aspectory 产品，不是本 Skill 的操作界面。图片使用分别署名的 CC0 练习照片；[查看来源](https://github.com/LydiaTools/aspectory/blob/c8293abbc337aacd733cae5ef0a19607995fa951/docs/screenshots/PROVENANCE.md)。产品示例在当前源码中，较早的 v0.1.0 预览 ZIP 不包含。*
 
 ## 能做什么
 
