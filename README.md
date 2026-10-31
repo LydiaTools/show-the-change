@@ -4,7 +4,7 @@
 
 A small Agent Skill that turns a specific project change into an explanation you can act on: what changed for you, where to see it, and what still needs checking. It is written for people who use coding agents but don't want to read a wall of diffs.
 
-[中文](README.zh-CN.md) · [Read the skill](skills/show-the-change/SKILL.md) · [See a product example](examples/carousel-product-change.md)
+[中文](README.zh-CN.md) · [Read the skill](skills/show-the-change/SKILL.md) · [See a product example](examples/carousel-product-change.md) · [Download v0.1.1](https://github.com/LydiaTools/show-the-change/releases/tag/v0.1.1)
 
 ## One question after the agent finishes
 

@@ -4,7 +4,7 @@
 
 一个给 Agent 用的小 Skill：把指定项目的改动讲成人能直接行动的话——你能看到什么、去哪里检查、还有什么没验证。适合使用编程 Agent、但不想先读一大页代码差异的人。
 
-[English](README.md) · [查看 Skill 原文](skills/show-the-change/SKILL.md) · [看真实产品改动示例](examples/carousel-product-change.zh-CN.md)
+[English](README.md) · [查看 Skill 原文](skills/show-the-change/SKILL.md) · [看真实产品改动示例](examples/carousel-product-change.zh-CN.md) · [下载 v0.1.1](https://github.com/LydiaTools/show-the-change/releases/tag/v0.1.1)
 
 ## Agent 做完后，问一句
 
