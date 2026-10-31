@@ -12,6 +12,18 @@ A small Agent Skill that turns a specific project change into an explanation you
 
 The skill asks the agent to inspect the actual change, use your language, and point you to the relevant page or file. A description of source code is not treated as proof that a public website or installed app has changed.
 
+## Try it without a terminal
+
+If your coding agent can read public GitHub pages, open the project you want to understand and paste this request:
+
+```text
+Read https://github.com/LydiaTools/show-the-change/blob/main/skills/show-the-change/SKILL.md
+and use it to explain what changed in this project and how I can check it.
+For this request, explain only; don't change any files.
+```
+
+This asks the agent to read the instructions for this task; it does not install the skill. If the agent cannot open the link, use the installation option below or copy the [skill text](skills/show-the-change/SKILL.md) into the conversation. The result depends on the agent and the evidence available to it.
+
 ## Install for Codex
 
 From the project where you want to use it, with Node.js 22.20+:
