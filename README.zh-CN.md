@@ -12,6 +12,18 @@
 
 Skill 引导 Agent 查看实际改动，用你的语言解释，并指出相应页面或文件。源码里写了什么，不等于网站已经更新，也不等于安装在电脑里的软件已经更新。
 
+## 不用终端，先试一次
+
+如果你的编程 Agent 可以读取公开 GitHub 页面，打开想了解的项目，把这段话发给它：
+
+```text
+请先阅读 https://github.com/LydiaTools/show-the-change/blob/main/skills/show-the-change/SKILL.md
+再告诉我这个项目改了什么、我去哪里核对。
+这次只解释，不要修改任何文件。
+```
+
+这只是请 Agent 在本次任务中阅读指引，不会安装 Skill。如果它打不开链接，可以使用下面的安装方式，或把 [Skill 原文](skills/show-the-change/SKILL.md)复制到对话中。结果取决于 Agent 和它能看到的实际证据。
+
 ## 在 Codex 中安装
 
 在需要使用它的项目目录，使用 Node.js 22.20 或更高版本运行：
