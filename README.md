@@ -4,7 +4,7 @@
 
 A small Agent Skill that turns a specific project change into an explanation you can act on: what changed for you, where to see it, and what still needs checking. It is written for people who use coding agents but don't want to read a wall of diffs.
 
-[中文](README.zh-CN.md) · [Read the skill](skills/show-the-change/SKILL.md) · [See a real example](examples/browser-agent-doc-change.md)
+[中文](README.zh-CN.md) · [Read the skill](skills/show-the-change/SKILL.md) · [See a product example](examples/carousel-product-change.md)
 
 ## One question after the agent finishes
 
@@ -28,7 +28,13 @@ To install manually, copy the complete [`skills/show-the-change`](skills/show-th
 
 ## A real change, explained
 
-The [example](examples/browser-agent-doc-change.md) follows one public commit in Browser Agent Blueprint. It distinguishes a documentation update from a product feature and points to the exact paragraph you can open. The example was written by inspecting the public change and recorded checks; it is not an independent evaluation of model behavior.
+The [product example](examples/carousel-product-change.md) explains a real image-tool change, shows its actual interface, and gives you steps to try. A [second example](examples/browser-agent-doc-change.md) distinguishes a documentation update from a product feature. Both use public source changes and recorded checks; neither is an independent evaluation of model behavior.
+
+> **What changed for you:** Landscape, square and portrait photos can share one carousel frame without cropping their displayed edges. You can reorder the set and download a numbered ZIP.
+
+![A real image-tool interface with three differently shaped photos fitted into matching frames](https://raw.githubusercontent.com/LydiaTools/aspectory/c8293abbc337aacd733cae5ef0a19607995fa951/docs/screenshots/carousel-photos-en.jpg)
+
+*This is the existing Aspectory app described in the example, not an interface for this skill. The screenshot uses separately credited CC0 practice photos; [provenance](https://github.com/LydiaTools/aspectory/blob/c8293abbc337aacd733cae5ef0a19607995fa951/docs/screenshots/PROVENANCE.md). The product example is in current source and is not in the earlier v0.1.0 preview ZIP.*
 
 ## What it can and cannot establish
 
