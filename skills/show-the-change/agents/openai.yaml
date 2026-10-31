@@ -1,0 +1,4 @@
+interface:
+  display_name: "Show the Change"
+  short_description: "Understand and check what an agent changed"
+  default_prompt: "Use $show-the-change to explain what changed and how I can verify it."
