@@ -40,7 +40,7 @@ To install manually, copy the complete [`skills/show-the-change`](skills/show-th
 
 ## A real change, explained
 
-The [product example](examples/carousel-product-change.md) explains a real image-tool change, shows its actual interface, and gives you steps to try. A [second example](examples/browser-agent-doc-change.md) distinguishes a documentation update from a product feature. Both use public source changes and recorded checks; neither is an independent evaluation of model behavior.
+The [product example](examples/carousel-product-change.md) explains a real image-tool change, shows its actual interface, and gives you steps to try. A [second example](examples/browser-agent-doc-change.md) distinguishes a documentation update from a product feature. A [release onboarding example](examples/release-onboarding.md) shows how to tell a clearer installation guide from a new software release. All three use public source changes and recorded checks; none is an independent evaluation of model behavior.
 
 > **What changed for you:** Landscape, square and portrait photos can share one carousel frame without cropping their displayed edges. You can reorder the set and download a numbered ZIP.
 
