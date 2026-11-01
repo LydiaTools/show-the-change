@@ -40,7 +40,7 @@ npx skills@1.7.4 add LydiaTools/show-the-change --skill show-the-change --agent 
 
 ## 一个真实改动示例
 
-[产品示例](examples/carousel-product-change.zh-CN.md)解释了一次真实的图片工具改动，展示实际界面，并告诉你如何试用。[另一个示例](examples/browser-agent-doc-change.zh-CN.md)把文档更新和产品功能更新区分开。两份示例都基于公开源码和已有检查记录，不是独立的模型行为评测。
+[产品示例](examples/carousel-product-change.zh-CN.md)解释了一次真实的图片工具改动，展示实际界面，并告诉你如何试用。[另一个示例](examples/browser-agent-doc-change.zh-CN.md)把文档更新和产品功能更新区分开。[安装指引示例](examples/release-onboarding.zh-CN.md)展示如何区分安装说明更清楚和软件发布新版本。三个示例都基于公开源码和已有检查记录，不是独立的模型行为评测。
 
 > **你能看到什么变化：** 横图、方图、竖图可以放进同一画幅，完整显示图片边缘；调整顺序后，可以一次下载带编号的压缩包。
 
