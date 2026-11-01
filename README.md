@@ -57,6 +57,15 @@ The [product example](examples/carousel-product-change.md) explains a real image
 
 The motivation came from public discussions of [Sphinx](https://news.ycombinator.com/item?id=50137950), which asks developers questions before pushing, and [Farol](https://news.ycombinator.com/item?id=50231349), which helps reviewers locate changes worth attention. Show the Change is an independently written explanation workflow; it does not include or claim endorsement from either project.
 
+## Related projects
+
+Looking for a different part of the workflow? These independent projects are worth a look:
+
+- [Open Steps](https://github.com/kharmanskyi/open-steps) offers a broader set of plain-language skills, including session reports and checking another session's work. Show the Change focuses on explaining a particular change and where to see it.
+- [product-engineer](https://github.com/Bubblegunn/product-engineer) combines skills for customer-facing explanations with a command-line checker for certain mismatches between a message and a diff.
+
+These descriptions are based on their public documentation, not a side-by-side runtime comparison. Please check each project's own instructions and license.
+
 ## License
 
 MIT. Issues and contributions are welcome.

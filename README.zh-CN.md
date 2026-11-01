@@ -57,6 +57,15 @@ npx skills@1.7.4 add LydiaTools/show-the-change --skill show-the-change --agent 
 
 思路受到公开讨论启发：[Sphinx](https://news.ycombinator.com/item?id=50137950) 在推送前向开发者提问，[Farol](https://news.ycombinator.com/item?id=50231349) 帮审查者寻找值得关注的改动。Show the Change 是独立编写的解释流程，未包含这两个项目的代码，也不代表获得它们的认可。
 
+## 相关项目
+
+如果你想解决的是工作流程中的其他问题，也可以看看这些独立项目：
+
+- [Open Steps](https://github.com/kharmanskyi/open-steps) 提供一组更广的通俗表达 Skill，包括会话报告和检查其他会话的工作。Show the Change 则聚焦讲清一次具体改动，以及去哪里查看。
+- [product-engineer](https://github.com/Bubblegunn/product-engineer) 将面向用户的改动说明 Skill 和命令行检查器结合起来，用于提示说明文字与代码差异之间的某些不一致。
+
+以上介绍依据项目公开文档，并非并排运行后的效果比较。使用前请查看各自的说明和许可证。
+
 ## 许可证
 
 MIT。欢迎反馈问题或提交改进。
